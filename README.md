@@ -1,0 +1,1 @@
+This is not a real project. I am simply practicing packaging with Python.

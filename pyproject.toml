@@ -1,0 +1,18 @@
+[project]
+name = "pypkg-test-01"
+version = "0.1.0"
+description = "An over-engineered Hello Wrold printer"
+dependencies = [
+    "pandas",
+    "matplotlib"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+pypkg-test-01 = "pypkg-test-01.main:main"
